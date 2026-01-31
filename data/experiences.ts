@@ -60,8 +60,7 @@ export const experiences = [
     stack: ["Windows", "Linux", "Réseaux", "Mobile", "Web"],
     missions: [
       "Accueil et orientation des clients.",
-      "Administration de systèmes Windows et Linux : gestion utilisateurs, services, permissions, stratégies de groupe et maintenance.",
-      "Développement mobile multiplateforme : Ionic, React Native, Flutter, intégration d'API REST et optimisation UI/UX.",
+      "Administration de systèmes Windows et Linux : gestion utilisateurs, services, maintenance.",
     ],
   },
 ]
