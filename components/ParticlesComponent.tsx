@@ -52,7 +52,7 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ id }) => {
       move: {
         direction: "none" as any, // ✅ cast pour TypeScript
         enable: true,
-        outModes: { default: "bounce" },
+        outModes: { default: "bounce" as any },
         random: true,
         speed: 0.8, // légèrement plus lent pour ambiance sombre
         straight: false,
@@ -68,8 +68,6 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ id }) => {
   return initDone ? (
     <Particles
       id={id || "tsparticles"}
-      init={particlesLoaded}
-      loaded={particlesLoaded}
       options={options}
       className="absolute top-0 left-0 w-full h-full"
     />
