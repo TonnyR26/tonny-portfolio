@@ -1,9 +1,9 @@
 'use client';
 
 import Particles from "@tsparticles/react";
-import type { Engine, Container } from "tsparticles-engine";
+import type { Container } from "tsparticles-engine";
 import { useEffect, useState, useMemo } from "react";
-import { loadSlim } from "@tsparticles/slim";
+import { loadFull  } from "tsparticles";
 
 interface ParticlesComponentProps {
   id?: string;
@@ -13,8 +13,8 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ id }) => {
   const [initDone, setInitDone] = useState(false);
 
   useEffect(() => {
-    const initEngine = async (engine: Engine) => {
-      await loadSlim(engine); // charge seulement les fonctionnalités essentielles
+    const initEngine = async (engine: any) => {
+      await loadFull(engine); // charge seulement les fonctionnalités essentielles
       setInitDone(true);
     };
 
