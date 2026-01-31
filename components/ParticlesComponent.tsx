@@ -50,7 +50,7 @@ const ParticlesComponent: React.FC<ParticlesComponentProps> = ({ id }) => {
         width: 1,
       },
       move: {
-        direction: "none",
+        direction: "none" as any, // ✅ cast pour TypeScript
         enable: true,
         outModes: { default: "bounce" },
         random: true,
