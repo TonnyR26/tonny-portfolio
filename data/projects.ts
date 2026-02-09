@@ -21,6 +21,13 @@ export const projects = [
     icon: "🔒",
   },
   {
+    title: "InfraS2Bridge (Module Dolibarr)",
+    description:
+      "Développement d’un module Dolibarr permettant l’intégration de Bridge pour le paiement : génération de liens de paiement, synchronisation des statuts (payé, en attente, échoué), association automatique aux factures et tiers, traçabilité des transactions et compatibilité Dolibarr 20+.",
+    stack: ["PHP", "Dolibarr", "Bridge API", "ERP", "Paiement"],
+    icon: "💳",
+  },
+  {
     title: "Tempo ERP & CRM",
     description:
       "Participation à la création d'un ERP et CRM intégrés basés sur Python et Django, pour la gestion complète des processus métiers.",
