@@ -1,5 +1,18 @@
 export const projects = [
   {
+  title: "Employee Rewards (Module Odoo)",
+  description:
+      "Développement d'un module Odoo complet pour la gestion des récompenses des employés. \
+      Fonctionnalités clés : création, modification et suivi des récompenses (bonus, reconnaissance, points), \
+      workflow complet avec états Brouillon → Confirmée → Approuvée → Attribuée → Annulée, \
+      calcul automatique du nombre de récompenses par employé, génération de rapports PDF multi-record via QWeb, \
+      support pour l’impression ZPL pour étiquettes, validation des doublons par date, intégration de vues form et list modernes, \
+      et actions de reporting directement depuis la sélection (checkbox) dans la vue list. \
+      Le module est entièrement compatible avec Odoo 19 et utilise mail.thread et mail.activity.mixin pour le suivi et les notifications.",
+    stack: ["Python", "Odoo 19", "QWeb", "ZPL", "PostgreSQL", "ORM"],
+    icon: "🏆",
+  },
+  {
     title: "Lemur Coffee Hotel Ranomafana",
     description:
       "Création d'un site web complet pour Lemur Coffee Hotel à Ranomafana en utilisant WordPress, intégration responsive et optimisation SEO.",
