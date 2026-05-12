@@ -1,5 +1,19 @@
 export const experiences = [
   {
+    role: "Développeur Odoo",
+    company: "KASIA Consulting", 
+    period: "Fév 2026 – Avr 2026",
+    stack: ["Python", "Odoo Community", "Odoo Enterprise", "PostgreSQL"],
+    missions: [
+      "Développement de modules personnalisés Odoo pour les modules Achat, Vente, POS et Comptabilité.",
+      "Ajout de champs et colonnes personnalisés pour répondre aux besoins métiers spécifiques.",
+      "Implémentation et personnalisation du module de paie sur Odoo Enterprise.",
+      "Amélioration et adaptation des modules de restauration et d’hôtellerie.",
+      "Personnalisation et création de rapports (devis, factures clients et fournisseurs).",
+      "Optimisation des processus métier via des automatisations et adaptations spécifiques."
+    ],
+  },
+  {
     role: "Développeur Dolibarr",
     company: "InfraS",
     period: "Oct 2024 – Oct 2025",
