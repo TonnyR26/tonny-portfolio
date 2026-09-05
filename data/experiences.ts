@@ -1,5 +1,17 @@
 export const experiences = [
   {
+    role: "Webmaster & Support IT",
+    company: "Lemur Coffee Hotel",
+    period: "Juin 2026 – Aujourd’hui",
+    stack: ["Web", "WordPress", "IT Support", "Digital Tools"],
+    missions: [
+      "Administration et mise à jour du site web de l’établissement.",
+      "Gestion et mise à jour des contenus sur les réseaux sociaux.",
+      "Support informatique aux utilisateurs et assistance technique.",
+      "Diagnostic et résolution des problèmes matériels et logiciels."
+    ],
+  },
+  {
     role: "Développeur Odoo",
     company: "KASIA Consulting", 
     period: "Fév 2026 – Avr 2026",
