@@ -94,8 +94,8 @@ export default function Hero() {
         {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/in/razafimanantsoa-tojonirina-tonny-a197871a9/"
-          target="_blank"             // ouvre dans un nouvel onglet
-          rel="noopener noreferrer"   // sécurité recommandée
+          target="_blank"            
+          rel="noopener noreferrer"  
           className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 transition shadow-lg text-white"
         >
           <FiLinkedin size={20} /> Razafimanantsoa Tojonirina Tonny
