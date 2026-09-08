@@ -1,28 +1,29 @@
 export const projects = [
   {
-  title: "Employee Rewards (Module Odoo)",
-  description:
-      "Développement d'un module Odoo complet pour la gestion des récompenses des employés. \
-      Fonctionnalités clés : création, modification et suivi des récompenses (bonus, reconnaissance, points), \
-      workflow complet avec états Brouillon → Confirmée → Approuvée → Attribuée → Annulée, \
-      calcul automatique du nombre de récompenses par employé, génération de rapports PDF multi-record via QWeb, \
-      support pour l’impression ZPL pour étiquettes, validation des doublons par date, intégration de vues form et list modernes, \
-      et actions de reporting directement depuis la sélection (checkbox) dans la vue list. \
-      Le module est entièrement compatible avec Odoo 19 et utilise mail.thread et mail.activity.mixin pour le suivi et les notifications.",
+    title: "Lemur Coffee Stay",
+    description:
+      "Développement d'une application mobile Android pour Lemur Coffee Hotel à Ranomafana. L'application permet aux utilisateurs de découvrir les différents types de chambres avec leurs photos et informations, de consulter les tarifs, de renseigner les détails de leur séjour et d'effectuer une réservation. Les réservations sont conservées localement et accessibles depuis une interface dédiée « My Reservations ». Intégration d'une fonctionnalité permettant d'ouvrir l'application e-mail du téléphone avec les informations de réservation préremplies afin de les envoyer directement à l'hôtel.",
+    stack: ["Flutter", "Dart", "Android", "SharedPreferences", "Email", "UI/UX"],
+    icon: "🏨",
+  },
+  {
+    title: "Employee Rewards (Module Odoo)",
+    description:
+      "Développement d'un module Odoo complet pour la gestion des récompenses des employés. Fonctionnalités clés : création, modification et suivi des récompenses (bonus, reconnaissance, points), workflow complet avec états Brouillon → Confirmée → Approuvée → Attribuée → Annulée, calcul automatique du nombre de récompenses par employé, génération de rapports PDF multi-record via QWeb, support pour l’impression ZPL pour étiquettes, validation des doublons par date, intégration de vues form et list modernes, et actions de reporting directement depuis la sélection (checkbox) dans la vue list. Le module est entièrement compatible avec Odoo 19 et utilise mail.thread et mail.activity.mixin pour le suivi et les notifications.",
     stack: ["Python", "Odoo 19", "QWeb", "ZPL", "PostgreSQL", "ORM"],
     icon: "🏆",
   },
   {
     title: "Lemur Coffee Hotel Ranomafana",
     description:
-      "Création d'un site web complet pour Lemur Coffee Hotel à Ranomafana en utilisant WordPress, intégration responsive et optimisation SEO.",
+      "Création d'un site web complet pour Lemur Coffee Hotel à Ranomafana en utilisant WordPress, avec intégration responsive, présentation des chambres et optimisation SEO.",
     stack: ["WordPress", "HTML", "CSS", "JS"],
     icon: "🌐",
   },
   {
     title: "InfrasWorkflow (Module Dolibarr)",
     description:
-      "Développement d'un module avancé pour Dolibarr : automatisation des acomptes monétaires et association aux factures finales. Gestion centralisée des extrafields (création, duplication, modification, suppression), mode poubelle, compatibilité Dolibarr 20 et plus.",
+      "Développement d'un module avancé pour Dolibarr : automatisation des acomptes monétaires et association aux factures finales. Gestion centralisée des extrafields (création, duplication, modification, suppression), mode poubelle et compatibilité Dolibarr 20 et plus.",
     stack: ["PHP", "Dolibarr", "ERP"],
     icon: "⚙️",
   },
@@ -68,4 +69,5 @@ export const projects = [
     stack: ["WordPress", "HTML", "CSS", "JS"],
     icon: "🪦",
   },
-]
+];
+
