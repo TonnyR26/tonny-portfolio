@@ -1,11 +1,30 @@
 export const projects = [
   {
+    title: "Explore Ranomafana Ifanadiana",
+    description:
+      "Développement d'une application mobile dédiée à la découverte touristique de Ranomafana et Ifanadiana. L'application permet de consulter les hébergements, restaurants, piscines, sites touristiques et lieux à découvrir, avec intégration de cartes interactives et de Google Maps. Elle propose également la consultation de la météo en temps réel, des actualités et événements locaux ainsi qu'une présentation de la région. L'application est conçue avec une approche moderne et orientée expérience utilisateur, avec une architecture permettant notamment la gestion de données locales et le fonctionnement hors ligne de certaines fonctionnalités.",
+    stack: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Supabase",
+      "SQLite",
+      "Leaflet",
+      "Open-Meteo",
+      "Google Maps",
+      "UI/UX",
+    ],
+    icon: "🌿",
+  },
+
+  {
     title: "Lemur Coffee Stay",
     description:
       "Développement d'une application mobile Android pour Lemur Coffee Hotel à Ranomafana. L'application permet aux utilisateurs de découvrir les différents types de chambres avec leurs photos et informations, de consulter les tarifs, de renseigner les détails de leur séjour et d'effectuer une réservation. Les réservations sont conservées localement et accessibles depuis une interface dédiée « My Reservations ». Intégration d'une fonctionnalité permettant d'ouvrir l'application e-mail du téléphone avec les informations de réservation préremplies afin de les envoyer directement à l'hôtel.",
     stack: ["Flutter", "Dart", "Android", "SharedPreferences", "Email", "UI/UX"],
     icon: "🏨",
   },
+
   {
     title: "Employee Rewards (Module Odoo)",
     description:
@@ -13,6 +32,7 @@ export const projects = [
     stack: ["Python", "Odoo 19", "QWeb", "ZPL", "PostgreSQL", "ORM"],
     icon: "🏆",
   },
+
   {
     title: "Lemur Coffee Hotel Ranomafana",
     description:
@@ -20,6 +40,7 @@ export const projects = [
     stack: ["WordPress", "HTML", "CSS", "JS"],
     icon: "🌐",
   },
+
   {
     title: "InfrasWorkflow (Module Dolibarr)",
     description:
@@ -27,6 +48,7 @@ export const projects = [
     stack: ["PHP", "Dolibarr", "ERP"],
     icon: "⚙️",
   },
+
   {
     title: "InfrassecureIBAN",
     description:
@@ -34,6 +56,7 @@ export const projects = [
     stack: ["PHP", "Dolibarr", "Sécurité"],
     icon: "🔒",
   },
+
   {
     title: "InfraS2Bridge (Module Dolibarr)",
     description:
@@ -41,6 +64,7 @@ export const projects = [
     stack: ["PHP", "Dolibarr", "Bridge API", "ERP", "Paiement"],
     icon: "💳",
   },
+
   {
     title: "Tempo ERP & CRM",
     description:
@@ -48,6 +72,7 @@ export const projects = [
     stack: ["Python", "Django", "ERP", "CRM"],
     icon: "📊",
   },
+
   {
     title: "Application Mobile Recettes",
     description:
@@ -55,6 +80,7 @@ export const projects = [
     stack: ["Ionic", "Angular", "C#", "Mobile"],
     icon: "📱",
   },
+
   {
     title: "Application Mobile Réservation Bateau",
     description:
@@ -62,6 +88,7 @@ export const projects = [
     stack: ["React Native", "Django", "Mobile"],
     icon: "⛴️",
   },
+
   {
     title: "Sites Pompes Funèbres France",
     description:
@@ -70,4 +97,3 @@ export const projects = [
     icon: "🪦",
   },
 ];
-
