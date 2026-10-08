@@ -1,4 +1,18 @@
-export const projects = [
+type ProjectLink = {
+  type: "mobile" | "web"
+  url: string
+  label: string
+}
+
+type Project = {
+  title: string
+  description: string
+  stack: string[]
+  icon: string
+  links?: ProjectLink[]
+}
+
+export const projects: Project[] = [
   {
     title: "Explore Ranomafana Ifanadiana",
     description:
