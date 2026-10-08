@@ -32,7 +32,7 @@ export const projects: Project[] = [
     links: [
       {
         type: "mobile" as const,
-        url: "https://lemurcoffeehotel.com/",
+        url: "https://lemurcoffeehotel.com/downloads/Explore%20ranomafana.apk",
         label: "Voir l'application",
       },
     ],
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     links: [
       {
         type: "mobile" as const,
-        url: "https://lemurcoffeehotel.com/",
+        url: "https://lemurcoffeehotel.com/downloads/Lemur%20coffee%20stay.apk",
         label: "Voir l'application",
       },
       {
