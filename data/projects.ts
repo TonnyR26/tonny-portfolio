@@ -15,14 +15,40 @@ export const projects = [
       "UI/UX",
     ],
     icon: "🌿",
+    links: [
+      {
+        type: "mobile",
+        url: "https://lemurcoffeehotel.com/",
+        label: "Voir l'application",
+      },
+    ],
   },
 
   {
     title: "Lemur Coffee Stay",
     description:
       "Développement d'une application mobile Android pour Lemur Coffee Hotel à Ranomafana. L'application permet aux utilisateurs de découvrir les différents types de chambres avec leurs photos et informations, de consulter les tarifs, de renseigner les détails de leur séjour et d'effectuer une réservation. Les réservations sont conservées localement et accessibles depuis une interface dédiée « My Reservations ». Intégration d'une fonctionnalité permettant d'ouvrir l'application e-mail du téléphone avec les informations de réservation préremplies afin de les envoyer directement à l'hôtel.",
-    stack: ["Flutter", "Dart", "Android", "SharedPreferences", "Email", "UI/UX"],
+    stack: [
+      "Flutter",
+      "Dart",
+      "Android",
+      "SharedPreferences",
+      "Email",
+      "UI/UX",
+    ],
     icon: "🏨",
+    links: [
+      {
+        type: "mobile",
+        url: "https://lemurcoffeehotel.com/",
+        label: "Voir l'application",
+      },
+      {
+        type: "web",
+        url: "https://lemurcoffeehotel.com/",
+        label: "Voir le site web",
+      },
+    ],
   },
 
   {
@@ -39,6 +65,13 @@ export const projects = [
       "Création d'un site web complet pour Lemur Coffee Hotel à Ranomafana en utilisant WordPress, avec intégration responsive, présentation des chambres et optimisation SEO.",
     stack: ["WordPress", "HTML", "CSS", "JS"],
     icon: "🌐",
+    links: [
+      {
+        type: "web",
+        url: "https://lemurcoffeehotel.com/",
+        label: "Visiter le site",
+      },
+    ],
   },
 
   {
