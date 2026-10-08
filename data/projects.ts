@@ -17,7 +17,7 @@ export const projects = [
     icon: "🌿",
     links: [
       {
-        type: "mobile",
+        type: "mobile" as const,
         url: "https://lemurcoffeehotel.com/",
         label: "Voir l'application",
       },
@@ -39,7 +39,7 @@ export const projects = [
     icon: "🏨",
     links: [
       {
-        type: "mobile",
+        type: "mobile" as const,
         url: "https://lemurcoffeehotel.com/",
         label: "Voir l'application",
       },
@@ -67,7 +67,7 @@ export const projects = [
     icon: "🌐",
     links: [
       {
-        type: "web",
+        type: "web" as const,
         url: "https://lemurcoffeehotel.com/",
         label: "Visiter le site",
       },
